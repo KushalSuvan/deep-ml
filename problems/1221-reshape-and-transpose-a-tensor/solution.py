@@ -10,4 +10,4 @@ def reshape_transpose(t):
         torch.Tensor: Transpose of the 2x3 reshape, with shape (3, 2).
     """
     # TODO: reshape to (2, 3) then transpose to (3, 2)
-    return t.reshape(2, 3).T()
+    return t.reshape(2, 3).T
